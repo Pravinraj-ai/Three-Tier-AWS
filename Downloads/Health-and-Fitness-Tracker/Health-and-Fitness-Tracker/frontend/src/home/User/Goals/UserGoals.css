@@ -1,0 +1,26 @@
+/* src/home/User/workoutThumbnail/UserGoals.css */
+.banner-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 1400px;
+  height: 600px;
+  
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.textcol{
+  color: rgb(205, 161, 19);
+  font-size: 5rem;
+}

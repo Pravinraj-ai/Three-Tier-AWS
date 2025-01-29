@@ -1,0 +1,114 @@
+.signup-body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #000;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.health-info-container {
+  padding: 20px;
+  flex: 1;
+  background-color: #000;
+  color: #fff;
+}
+
+.login-form-container {
+  padding: 20px;
+  max-width: 400px;
+  width: 500px;
+}
+
+.login-form {
+  background-color: #ddb42b;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  width: 700px;
+  text-align: center;
+}
+
+.imagesrc {
+  width: 120px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #000;
+}
+
+button {
+  background-color: #fff;
+  color: #008080;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #125478;
+  color: #fff;
+}
+
+.hyperlink {
+  text-decoration: none;
+  color: #008080;
+}
+
+.hyperlink:hover {
+  text-decoration: underline;
+}
+
+.signup-link {
+  display: inline-block;
+  background-color: #fff;
+  color: #008080;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup-link:hover {
+  background-color: #125478;
+  color: #fff;
+  text-decoration: none;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted rgb(227, 221, 221); 
+}
+
+.dob-label {
+  text-align: left;
+  margin-bottom: 2px; /* Optional: Add some bottom margin for spacing */
+}

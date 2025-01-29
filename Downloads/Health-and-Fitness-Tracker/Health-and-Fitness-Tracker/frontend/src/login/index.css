@@ -1,0 +1,122 @@
+.login-body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.imagesrc {
+width: 120px;
+}
+
+.login-container {
+display: flex;
+background-color: #000;
+color: #fff;
+}
+
+.health-info-container {
+padding: 20px;
+flex: 1;
+background-color: #000;
+color: #fff;
+}
+
+.login-form-container {
+padding: 20px;
+max-width: 400px;
+width: 800px;
+}
+
+.login-form {
+background-color: #ddb42b;
+color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+max-width: 400px;
+width: 100%;
+text-align: center;
+}
+
+.user-image {
+width: 40px;
+height: 40px;
+margin-bottom: 20px;
+}
+
+h2 {
+color: #fff;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.input-container {
+margin-bottom: 15px;
+}
+
+input {
+width: 100%;
+padding: 10px;
+border: 1px solid #dddfe2;
+border-radius: 5px;
+font-size: 14px;
+color: #000;
+}
+
+button {
+background-color: #fff;
+color: #0e0e0e;
+padding: 10px;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #41dbf6;
+}
+
+.forgot-password,
+.create-account {
+margin-top: 10px;
+font-size: 14px;
+color: #808080;
+
+}
+
+a {
+text-decoration: none;
+color: #a5a9ac;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+hr {
+margin: 20px 0;
+border: none;
+border-top: 1px solid #dddfe2;
+}
+
+/* Add these styles to your existing CSS */
+
+.input-container select {
+width: 100%;
+padding: 10px;
+border: 1px solid #dddfe2;
+border-radius: 5px;
+font-size: 14px;
+color: #000;
+}
+
+.error-message {
+color: #ff0000;
+margin-bottom: 10px;
+}
+
+/* Adjust the styles as needed for your design */

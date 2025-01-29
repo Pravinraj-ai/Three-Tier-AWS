@@ -1,0 +1,77 @@
+/* Add styles for the forgot password page */
+
+.forgot-password-body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+  }
+  
+  .forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .forgot-password-form-container {
+    padding: 20px;
+    max-width: 400px;
+    width: 600px;
+  }
+  
+  .forgot-password-form {
+    background-color: #ddb42b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #008080;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #125478;
+    color: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #008080;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
