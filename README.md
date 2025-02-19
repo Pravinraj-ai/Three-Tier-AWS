@@ -379,7 +379,7 @@ The presentation tier is the top level of the three-tier architecture and is acc
     * Auto-assign public IP : Enable (it needs public IP to access through internet )
     * security groups
        * Name: Web-Server-SG
-       * Inbound Security rules to ***type: HHTP , Source type : ALL IPv4  & Source : 0.0.0.0/0 (Entire Internet)***
+       * Inbound Security rules to ***type: HTTP , Source type : ALL IPv4  & Source : 0.0.0.0/0 (Entire Internet)***
  7. **Launch Instance**
 
 <img src="./image/web_server.png" alt="Alt text" width="500">
