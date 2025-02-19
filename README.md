@@ -143,7 +143,7 @@ Since the database should be placed in a private subnet (for security reasons), 
  4. **Templates**: Free tier
  5. **Availability and Durability**: Single DB instance
  4. **Settings**
-    * DB instance Identifier : DB-Sever
+    * DB instance Identifier : DB-Server
     * Self Managed : Set Master Username and Master Password
  6. **Connectivity**
     * Dont connect to EC2
