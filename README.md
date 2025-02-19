@@ -520,7 +520,7 @@ To regulate the traffic between various webservers we need implement to Applicat
    * **Select a target group (create a target group and then select)**: Create Target Group
       * Target Type : Instances
       * Target Group Name: Three-Tier-Target-Group
-      * Protocol : Port - it should same as ALB's (HHTP & 80)
+      * Protocol : Port - it should same as ALB's (HTTP & 80)
       * IP address type IPv4
       * VPC : Three-Tier
       * Next - Register targets
