@@ -317,7 +317,7 @@ This command creates the python file and open it in the editor. Paste this pytho
 
  <img src="./image/image23.png" alt="Alt text" width="500">
 
-After pasting this code in that file , give Ctrl+o and Enter to save and give Ctrl+x to exit. Now launch the pyhton file using the following command ***nohup python3 app.py***
+After pasting this code in that file , give Ctrl+o and Enter to save and give Ctrl+x to exit. Now launch the python file using the following command ***nohup python3 app.py***
 
  <img src="./image/image24.png" alt="Alt text" width="500">
 
@@ -326,7 +326,7 @@ After pasting this code in that file , give Ctrl+o and Enter to save and give Ct
 >
 > ***1.1.1.85*** is the private ip of the application server and ***5000 is the port number*** the application is launched
 
-Check whether application is working properly by doing a HTPP request to it. 
+Check whether application is working properly by doing a HTTP request to it. 
 
 Open new cmd prompt and login to the Application-Server through Bastion-Host and then make the request to add_user.
 
