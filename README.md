@@ -569,7 +569,7 @@ After creating the AMI, delete the existing Web-Server
     * Subnet : Private-Subnet-1
     * Auto-assign public IP : Disable
     * security groups
-       * Name: Web-Server-SG
+       * Name: Web-Server-SG (Select the existing Web server's security group which was already created)
  7. **Launch Instance**
 
 <img src="./image/image42.png" alt="Alt text" width="500">
