@@ -361,7 +361,7 @@ Using the Python Flask application, we can now:
 
 The presentation tier is the top level of the three-tier architecture and is accessible by users.
 
-#### **Create Application Server (EC2 - Ubuntu)**
+#### **Create Web Server (EC2 - Ubuntu)**
 
  1. **Go to EC2 -> Instances -> Launch an Instance**
  2. **Name**: Web-Server
