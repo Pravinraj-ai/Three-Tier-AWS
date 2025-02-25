@@ -12,7 +12,7 @@ db_config = {
 def get_db_connection():
     return mysql.connector.connect(**db_config)
 
-@app.route('/api/add_user', methods=['POST'])
+@app.route('/add_user', methods=['POST'])
 def add_user():
     data = request.json
     name, email, age = data['name'], data['email'], data['age']
@@ -24,7 +24,7 @@ def add_user():
     conn.close()
     return jsonify({'message': 'User added successfully'}), 201
 
-@app.route('/api/get_users', methods=['GET'])
+@app.route('/get_users', methods=['GET'])
 def get_users():
     conn = get_db_connection()
     cursor = conn.cursor(dictionary=True)
