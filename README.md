@@ -561,8 +561,8 @@ After creating the AMI, delete the existing Web-Server
 
  1. **Go to EC2 -> Instances -> Launch an Instance**
  2. **Name**: Web-Server
- 3. **My AMIs**: Free tier
- 4. **Instance Type**: Web-Server-Image
+ 3. **My AMIs**: Owned by me
+ 4. **Amazon Machine Image (AMI)**: Select the extracted Web server's AMI 
  5. **Key pair(login)**: Select the key pair Web-Server (Which is already created while creating Web-Server in Public-Subnet)
  6. **Network settings**
     * VPC : Three-Tier
