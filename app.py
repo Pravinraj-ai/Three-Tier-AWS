@@ -4,15 +4,15 @@ app = Flask(__name__)
 
 
 db_config = {
-    'host': 'db-server.c3siewoosk21.eu-north-1.rds.amazonaws.com',
+    'host': 'three-tier-db.c3siewoosk21.eu-north-1.rds.amazonaws.com',
     'user': 'admin',
-    'password': 'admin123',
-    'database': 'user_data'
+    'password': 'admin1234',
+    'database': 'user'
 }
 def get_db_connection():
     return mysql.connector.connect(**db_config)
 
-@app.route('/add_user', methods=['POST'])
+@app.route('/api/add_user', methods=['POST'])
 def add_user():
     data = request.json
     name, email, age = data['name'], data['email'], data['age']
@@ -24,7 +24,7 @@ def add_user():
     conn.close()
     return jsonify({'message': 'User added successfully'}), 201
 
-@app.route('/get_users', methods=['GET'])
+@app.route('/api/get_users', methods=['GET'])
 def get_users():
     conn = get_db_connection()
     cursor = conn.cursor(dictionary=True)
