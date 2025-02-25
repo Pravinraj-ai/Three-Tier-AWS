@@ -386,7 +386,7 @@ The presentation tier is the top level of the three-tier architecture and is acc
 <img src="./image/web_server.png" alt="Alt text" width="500">
 
 
- Next, Go to Application-Server-Secrity-Group and add a inbound rule to allow Web-Server to make request to application server.(add the private IPv4 of web server)
+ Next, Go to Application-Server-Security-Group and add a inbound rule to allow Web-Server to make request to application server.(add the private IPv4 of web server)
 
  <img src="./image/app_sg_web.png" alt="Alt text" width="500">
 
