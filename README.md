@@ -331,7 +331,7 @@ Check whether application is working properly by doing a HTTP request to it.
 Open new cmd prompt and login to the Application-Server through Bastion-Host and then make the request to add_user.
 
 > Command :
-> * **curl -X POST http://1.1.1.85:5000/add_user -H "Content-Type: application/json" -d '{"name": "AWS", "age": "12",
+> * **curl -X POST http://1.1.1.85:5000/api/add_user -H "Content-Type: application/json" -d '{"name": "AWS", "age": "12",
 "email": "Some@email"}'**
 >
 >.
@@ -341,7 +341,7 @@ Open new cmd prompt and login to the Application-Server through Bastion-Host and
 Make a request to fetch all users through get_users
 
 > Command :
-> * **curl http://1.1.1.85:5000/get_users**
+> * **curl http://1.1.1.85:5000/api/get_users**
 >
 >.
 
