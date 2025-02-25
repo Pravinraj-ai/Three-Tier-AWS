@@ -515,6 +515,7 @@ To regulate the traffic between various webservers we need implement to Applicat
       * eu-north-1b (Public Subnet)
  7. **Security Groups** -> create a new security group: 
    * Name: Application-Load-Balancer-Security-Group
+   * Outbound Security rules to ***type: HTTP , Source type : ALL IPv4  & Source : 0.0.0.0/0 (Entire Internet)***
    * Inbound Security rules to ***type: HTTP , Source type : ALL IPv4  & Source : 0.0.0.0/0 (Entire Internet)***
  8. **Listeners and routing**:
    * Protocol - HTTP : PORT - 80
