@@ -86,7 +86,7 @@ Each subtnet with 64 IP's
 
 2 . Add route to the created IGW  
 
-  <img src="./image/imagech.png" alt="Alt text" width="800">
+  <img src="./image/imagech.PNG" alt="Alt text" width="800">
 
 Now, Same way create Private-Route-Table.
 
